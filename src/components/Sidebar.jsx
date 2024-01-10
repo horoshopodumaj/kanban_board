@@ -1,10 +1,10 @@
 import { Switch } from "@headlessui/react";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import useDarkMode from "../Hooks/useDarkMode";
 import boardIcon from "../assets/icon-board.svg";
 import darkIcon from "../assets/icon-dark-theme.svg";
 import lightIcon from "../assets/icon-light-theme.svg";
-import useDarkMode from "../hooks/useDarkMode";
 
 import hideSidebarIcon from "../assets/icon-hide-sidebar.svg";
 import showSidebarIcon from "../assets/icon-show-sidebar.svg";
